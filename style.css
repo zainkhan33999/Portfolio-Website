@@ -12,7 +12,7 @@
     --text-color:#fff;
     --bg-color:#1b1f24;
     --second-bg-color:#22282f;
-    --main-color:#13bbff;
+    --main-color:#13e3ff;
     --other-color:#c3cad5;
     --h1-font:4.5rem;
     --h2-font:2.9rem;
@@ -222,7 +222,7 @@ box-shadow: 0 0 20px var(--main-color);
 .box{
     padding: 80px 40px 66px;
     background: #2d343f;
-    border-radius: 28px;
+    border-radius: 20px;
     border: 1px solid transparent;
     box-shadow: 0 0 5px var(--main-color);
     transition: all 0.50s ease;
@@ -272,7 +272,7 @@ box-shadow: 0 0 20px var(--main-color);
 } 
 .portfolio-content{
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(250px,auto));
+    grid-template-columns: repeat(auto-fit,minmax(345px,auto));
     align-items: center;
     gap: 2.3rem;
     margin-top: 4.2rem;
