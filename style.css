@@ -421,3 +421,114 @@ font-size: 27px;
   --p-font:15px;
 }
     }
+    /* ... (your existing CSS code) ... */
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    
+    header {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px 8%;
+    }
+
+    .navlist {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .navlist a {
+        margin-left: 0;
+        margin-bottom: 15px;
+    }
+
+    .logo {
+        margin-bottom: 20px;
+    }
+
+    .h-btn {
+        display: none;
+    }
+
+    header.sticky {
+        padding: 14px 8%;
+    }
+    
+    
+ 
+    
+
+    header.sticky {
+      padding: 14px 8%;
+    }
+    
+    section {
+      padding: 60px 8% 40px;
+    }
+    
+    .hero {
+      height: auto;
+      min-height: 100vh;
+      text-align: center;
+    }
+    
+    .main-content h1 {
+      font-size: 3rem;
+    }
+    
+    .main-content p {
+      font-size: 16px;
+      width: 100%;
+    }
+    
+    .social {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 30px;
+    }
+    
+    .social i {
+      margin: 0 10px;
+    }
+    
+    .main-btn {
+      text-align: center;
+    }
+    
+    .btn {
+      margin-bottom: 20px;
+    }
+    
+    .about {
+      grid-template-columns: 1fr;
+      gap: 40px;
+    }
+    
+    .about-img img {
+      width: 100%;
+      max-width: 300px;
+      height: auto;
+      margin: 0 auto;
+    }
+    
+    .about-text {
+      text-align: center;
+    }
+    
+    .exp-area p {
+      font-size: 16px;
+      line-height: 26px;
+    }
+    
+    .exp-area p span {
+      font-size: 14px;
+    }
+    
+    .btn {
+      margin: 20px auto;
+    }
+  }
+  
+  /* ... (your existing CSS code) ... */
+  
