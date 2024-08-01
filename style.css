@@ -63,7 +63,9 @@ span{
     font-size: 35px;
     z-index: 1001;
     cursor: pointer;
-    display: none;
+    display: none; 
+    margin-left: auto;
+    margin-top: -50px;
 }
 .h-btn{
     display: inline-block;
@@ -177,10 +179,10 @@ header.sticky{
 
 }
 .about-img img{
-width: 100%;
-height: 100%;
-max-width: 530px;
-border-radius:  50%;
+
+
+max-width: 500px;
+border-radius:100%;
 object-fit: cover;
 border: 7px solid var(--main-color);
 box-shadow: 0 0 20px var(--main-color);
@@ -421,11 +423,12 @@ font-size: 27px;
   --p-font:15px;
 }
     }
-    /* ... (your existing CSS code) ... */
-
-/* Media query for smaller screens */
+    
 @media (max-width: 768px) {
     
+    #menu-icon{
+        display: block;
+    }
     header {
         flex-direction: column;
         align-items: center;
@@ -436,15 +439,32 @@ font-size: 27px;
         flex-direction: column;
         align-items: center;
         margin-top: 20px;
+        gap: 10px;
+ display: none;
     }
-
-    .navlist a {
+    .mob-list{
+        display: none;
+        transition: all ease  1s;
+        
+    }
+ 
+    
+    .mob-list {
+        font-size: var(--p-font);
+        font-weight: 500;
+        color: var(--other-color);
         margin-left: 0;
+    
         margin-bottom: 15px;
+        display: block;
+        transition: all ease 1s;
     }
+  
 
     .logo {
         margin-bottom: 20px;
+        margin-right: 190px;
+        font-size: 20px;
     }
 
     .h-btn {
@@ -452,11 +472,13 @@ font-size: 27px;
     }
 
     header.sticky {
-        padding: 14px 8%;
+        padding: 14px 8%;   
     }
     
     
- 
+   .menu-icon{
+    display: block;
+   }
     
 
     header.sticky {
@@ -530,5 +552,5 @@ font-size: 27px;
     }
   }
   
-  /* ... (your existing CSS code) ... */
+  
   
