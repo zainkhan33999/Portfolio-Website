@@ -165,7 +165,7 @@ font-size: 1.6rem;
     background: var(--main-color);
     color: var(--bg-color);
 }
-header.sticky{
+.sticky{
     background: var(--bg-color);
   transition: all ease 1s;
     padding: 16px ;
@@ -442,11 +442,7 @@ font-size: 27px;
         gap: 10px;
  display: none;
     }
-    .mob-list{
-        display: none;
-        transition: all ease  1s;
-        
-    }
+ 
  
     
     .mob-list {
@@ -454,10 +450,20 @@ font-size: 27px;
         font-weight: 500;
         color: var(--other-color);
         margin-left: 0;
-    
         margin-bottom: 15px;
         display: block;
-        transition: all ease 1s;
+        transition: all ease 1s;    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+   
+    }
+    .mob-list li{
+       
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        justify-self: center;
     }
   
 
@@ -473,6 +479,8 @@ font-size: 27px;
 
     header.sticky {
         padding: 14px 8%;   
+        transition: all ease  1s;
+        
     }
     
     
@@ -493,10 +501,12 @@ font-size: 27px;
       height: auto;
       min-height: 100vh;
       text-align: center;
+      
     }
     
     .main-content h1 {
       font-size: 3rem;
+      
     }
     
     .main-content p {
@@ -549,6 +559,11 @@ font-size: 27px;
     
     .btn {
       margin: 20px auto;
+      
+    }
+    .row{
+        width: 300px;
+
     }
   }
   
