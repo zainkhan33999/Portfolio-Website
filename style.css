@@ -569,3 +569,8 @@ font-size: 27px;
   
   
   
+@media (max-width:400px){
+    .hero{
+        margin-top: 40px;
+    }
+}
