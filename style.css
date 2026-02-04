@@ -353,6 +353,12 @@ box-shadow: 0 0 20px var(--main-color);
     color: var(--text-color);
     font-size: 27px;
 }
+.project-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
 @media (max-width:1700px) {
     header{
         padding: 20px 8%;
